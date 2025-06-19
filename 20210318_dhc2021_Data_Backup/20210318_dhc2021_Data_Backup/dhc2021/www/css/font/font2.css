@@ -1,0 +1,48 @@
+/* nanum-myeongjo-regular - korean */
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-regular.eot'); /* IE9 Compat Modes */
+  src: local('NanumMyeongjo'),
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-regular.woff') format('woff'), /* Modern Browsers */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-regular.svg#NanumMyeongjo') format('svg'); /* Legacy iOS */
+}
+/* nanum-myeongjo-700 - korean */
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-700.eot'); /* IE9 Compat Modes */
+  src: local('NanumMyeongjo Bold'), local('NanumMyeongjoBold'),
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-700.woff') format('woff'), /* Modern Browsers */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-700.svg#NanumMyeongjo') format('svg'); /* Legacy iOS */
+}
+/* nanum-myeongjo-800 - korean */
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-800.eot'); /* IE9 Compat Modes */
+  src: local('NanumMyeongjo ExtraBold'), local('NanumMyeongjoExtraBold'),
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-800.woff') format('woff'), /* Modern Browsers */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/css/font/nanum_myeongjo/nanum-myeongjo-v12-korean-800.svg#NanumMyeongjo') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'chosun_myungjo';
+    src: url('/css/font/chosun/chosun_ilbo_myungjo.woff2') format('woff2'),
+         url('/css/font/chosun/chosun_ilbo_myungjo.woff') format('woff'),
+		 url('/css/font/chosun/ChosunNm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

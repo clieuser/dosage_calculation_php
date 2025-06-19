@@ -1,0 +1,207 @@
+.testNav{display:flex;align-items:center;justify-content:space-between;
+width:100%;max-width:500px;margin:0px auto 10px auto;}
+.testNav li{flex-grow:1;}
+.testNav li a{display:block;padding:12px 0px;text-align:center;font-size:15px;color:#555;width:100%;border-bottom:2px solid #aaa;line-height:20px;}
+.testNav li a:hover , .testNav li a.on{font-size:15px;border-bottom:2px solid #333;color:black;font-weight:Bold;}
+
+.table_list{margin:0px auto;}
+.table_list tr.head td{background-color:#f3f3f3;text-align:center;}
+.table_list tr td{padding:10px 10px;text-align:center;}
+.table_list tr td.header{background-color:#fafafa;}
+
+/*exam info*/
+.examDiv{width:100%;}
+.examDiv{display:none}
+.examDiv.active{display:block;}
+
+.examBtn ul{width:100%;max-width:500px;margin:0px auto;}
+.examBtn ul li{margin-bottom:20px;width:100%;}
+.examBtn ul li button{width:100%;}
+
+.swProgress{margin-bottom:10px;}
+.swProgress .ssTitle{margin-bottom:10px;font-size:16px;}
+.swProgress .progress{height:30px;}
+
+.swCon{text-align:center; font-size:16px; 
+display:flex;align-items:center;justify-content:center;}
+.timerText{margin-right:10px;}
+.timer.well{font-size:18px;}
+
+#examCon{width:100%;max-width:780px;margin:0px auto;padding:10px 0px;}
+#examCon .level_head{margin:0px auto 10px auto;width:100%;max-width:500px;}
+#examCon.start .level_head .swProgress{display:none;}
+#examCon.stop .level_head .swProgress{display:block;}
+#examCon.init .level_head .swCon{display:none;}
+
+
+#examB{margin-top:30px;}
+#examC{display:none;max-width:500px;margin:0px auto 20px auto;border:1px solid #aaa;padding:15px 15px;text-align:center;font-size:16px;letter-spacing:-0.05em;line-height:25px;}
+#examCon.init #examC{display:block;}
+
+/*exam list*/
+.exam_list{width:100%;margin:0px auto;border-top:2px solid #777;}
+.exam_list tr.head td{text-align:center;background-color:#f3f3f3;}
+
+.exam_list tr td{padding:10px 5px;font-size:18px;border-bottom:1px solid #aaa;}
+.exam_list tr td.num{width:40px;text-align:center;}
+.exam_list tr td.subject{width:calc(50% - 60px);}
+.exam_list tr td.arrow{width:40px;text-align:center;}			
+.exam_list tr td.answer{}
+.exam_list tr td.answer input[type='text']{width:80px;border:1px solid #aaa;height:40px;}
+.exam_list li.head div{text-align:center;}
+
+.exam_list tr td .resultUnit{position:relative;}
+.exam_list tr td .resultUnit:after{display:none;content:"";position:absolute;top:-35px;left:-100px;width:100px;height:100px;background:no-repeat center center;background-size:cover;opacity:0.7}
+.exam_list tr.examTrue td .resultUnit:after{display:block;background-image:url('/img/red_circle.png');}
+.exam_list tr.examFalse td .resultUnit:after{display:block;background-image:url('/img/red_line.png');width:80px;height:80px;left:-70px;}
+.exam_list tr.examFalse td{background-color:#fbbdbd}
+
+
+/*level0 exam result*/
+.nextStep{padding:15px 0px;}
+.nextStep ul{display:flex;align-items:center;justify-content:center;}
+.nextStep ul li{width:140px;margin:0px 10px;}
+.nextStep ul li button{width:100%;font-size:16px;height:55px;padding:0px;}
+.error_list{border:1px solid #aaa;width:100%;padding:5px 15px;background-color:}
+.error_list li{padding-bottom:10px;padding-top:10px;border-bottom:1px solid #aaa;width:100%;display:flex;align-item:center;justify-content:space-between;font-size:13px;}
+.error_list li:last-child{border-bottom:0px;}
+.error_list .rsTitle{margin-bottom:10px;font-weight:bold;font-size:18px;}
+.error_list li div.num{width:30px;}
+.error_list li div.resultCon{width:calc(100% - 30px);}
+.error_list li div.resultCon .result{margin-bottom:10px;color:black;}
+.error_list li div.resultCon .hint{color:black;}
+
+#examQ{margin-bottom:20px;position:relative;}
+
+#examQ .totalGrade{position:absolute;width:100%;top:50%;left:0px;margin-top:-200px;font-size:400px;line-height:400px;font-weight:bold;font-family: 'Nanum Brush Script', cursive;text-align:center;color:#ed6767;}
+	
+
+/*level1 test*/
+.level1_exam{margin:10px auto;width:100%;max-width:600px;padding:15px;font-size:18px;line-height:35px;border:1px solid #aaa;}
+
+
+#examQ.hint1 .hint1, #examQ.hint1 .hint1 .hint1{color:blue;font-weight:bold;}
+#examQ.hint1 .hint3{color:#6610f2;font-weight:bold;}
+#examQ.hint1 .hint2 .hint1, #examQ.hint1 .hint2{color:red;font-weight:bold;}
+
+#examQ #hintDetail{display:none;}
+#examQ.hint1 #hintDetail, #examQ.hint2 #hintDetail{display:block;}
+
+.level1_submit{padding:20px 0px;display:flex;align-items:center;justify-content:center;}
+.level1_submit input{width:130px;border:1px solid #aaa; height:45px;margin-right:5px;}	
+.level1_submit span.unit{font-size:18px;margin-right:15px;}
+.level1_hint{padding:20px 0px;text-align:center;}
+
+	
+.level1_submit .unit{display:inline-block;width:80px;}
+.level1_submit .unit_result{display:inline-block;position:relative;}
+.level1_submit .unit_result:after{display:none;content:"";position:absolute;top:-35px;left:-100px;width:100px;height:100px;background:no-repeat center center;background-size:cover;opacity:0.7}
+.level1_submit.examTrue .unit_result:after{display:block;background-image:url('/img/red_circle.png');}
+.level1_submit.examFalse .unit_result:after{display:block;background-image:url('/img/red_line.png');width:80px;height:80px;left:-70px;}
+
+.level1_submit2{display:block;}
+.level1_submit2 > div{display:flex;align-items:center;justify-content:center;}
+.level1_submit2 > div span{display:inline-block;}
+.level1_submit2 > div span.num{width:50px;}
+
+
+body mjx-container[jax="CHTML"][display="true"]{display:inline-block;text-align:left;font-size:110% !important;color:black;}
+.ex_mathBox .ex_math{text-align:left;font-size:13px;line-height:25px;color:black;}
+.ex_mathBox .ex_title{font-size:18px;margin-bottom:10px;font-weight:bold;}
+.ex_mathBox .ex_num{margin-bottom:10px;}
+.ex_mathBox .ex_math{margin-bottom:20px;}
+            
+
+/*level1 css*/
+#examCon .current{display:flex;align-items:center;justify-content:center;margin-bottom:10px;padding:5px 10px;font-weight:bold;font-size:14px;border:1px solid #aaa;}
+#examCon .current span{display:inline-block;margin-right:5px;font-size:17px}
+
+
+#examQ .ex1Box{width:100%;position:relative;margin:30px 0px 15px 0px;padding:30px 15px 20px 15px;border:4px solid #aaa;border-radius:10px;}
+#examQ .ex1Box .ex1Title{position:absolute;top:-30px;left:20px;font-family:'Arial';font-size:50px;font-weight:bold;line-height:50px;color:#6610f2;background-color:white;}
+#examQ .ex1Box .ex1Head{font-size:16px;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #ccc;}
+#examQ .ex1Box .ex1Head  span{display:inline-block;width:60px;}
+#examQ .ex1Box .ex1Body{margin-bottom:20px;font-family:'NanumSquare';font-size:17px;line-height:30px;word-break:keep-all;}
+
+
+
+#examQ .ex1Box .ex1Q{margin-bottom:10px;} 
+#examQ .ex1Box .ex1Q .exam{margin-bottom:10px;}
+#examQ .ex1Box .ex1Q .exam .ex1_item{margin-bottom:5px;font-size:17px;font-weight:bold;word-break:keep-all;}
+#examQ .ex1Box .ex1Q .exam .ex1_answer{display:flex;align-items:center;}
+#examQ .ex1Box .ex1Q .exam .ex1_answer .ex1_text{display:inline-block;margin-right:10px;font-size:17px;}
+#examQ .ex1Box .ex1Q .exam .ex1_answer input{padding-left:10px;padding-right:10px;width:100px;height:40px;border:1px solid #888;}
+#examQ .ex1Box .ex1Q .exam .ex1_answer .unit{font-size:18px;margin-left:5px;}
+#examQ .ex1Box .ex1Notice{font-size:14px;color:#333;}
+
+
+.level1Btn{margin:20px 0px;padding:0px 5px;width:100%;display:flex;align-items:center;justify-content:space-between;}
+.level1Btn.leve1Btn3 li{width:calc(33.3% - 5px);}
+.level1Btn.leve1Btn2 li{width:calc(50% - 5px);}
+.level1Btn.leve1Btn1 li{width:100%;}
+.level1Btn li button.btn{margin:0px;padding:0px;height:50px;width:100%;}
+
+#examQ .ex1Box .unit{display:inline-block;}
+#examQ .ex1Box .resultUnit{display:inline-block;position:relative;}
+#examQ .ex1Box .resultUnit:after{display:none;content:"";position:absolute;top:-35px;left:-100px;width:100px;height:100px;background:no-repeat center center;background-size:cover;opacity:0.7}
+#examQ .ex1Box .ex1_answer.examTrue .resultUnit:after{display:block;background-image:url('/img/red_circle.png');}
+#examQ .ex1Box .ex1_answer.examFalse .resultUnit:after{display:block;background-image:url('/img/red_line.png');width:80px;height:80px;left:-80px;}
+#examQ .examSubmit{width:100%;height:50px;}
+
+/*level 1 결과를 보여준다*/
+#examR .nextStep{padding:15px;border:1px solid #aaa;border-radius:10px;font-size:17px;line-height:28px;color:#333;}
+#examR .nextStep.nextComplete{font-weight:bold;}
+#examR .nextStep.nextEnd a{width:100%;}
+
+
+#examR .resultHead{margin-bottom:10px;font-weight:bold;font-size:17px;}
+#examR .resultText{font-size:17px;line-height:28px;}
+#examR .result03 .resultText{font-size:17px;line-height:28px;}
+
+#examR .level0_test_next{width:100%;padding:15px 10px;text-align:center;}
+
+.bold{font-weight:bold;}
+mjx-container[jax="CHTML"][display="true"]{text-align:left;font-size:14px !important;color:black;}
+.bold{font-weight:bold;}
+#examCon mjx-container[jax="CHTML"][display="true"] *{font-size:16px !important;letter-spacing:-0.05em;}
+#examCon mjx-container[jax="CHTML"][display="true"]{margin-top:10px;margin-bottom:10px;}
+
+
+
+/*level1 basic*/
+.basic_title{padding-top:20px;margin-bottom:20px;font-size:35px;color:black;display:flex;align-items:center;justify-content:center;}
+.basic_title img{width:50px;}
+.basic_stitle{margin-bottom:30px;font-size:25px;color:#555;text-align:center;font-family:'NanumSquare';}
+
+.basic_cont {font-size:17px;line-height:30px;font-family:'NanumSquare';}
+.basic_cont h5{padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid #ccc;font-family:'Noto Sans KR';}
+
+.basic_cont .alert{padding:20px;margin-bottom:30px;}
+.level1_go_btn{width:100%;}
+a.btn.btn-lg{line-height:45px}
+@media (max-width: 600px){
+	.btn.btn-lg{font-size:14px;height:45px;padding:0px 20px;;}
+	.pageCont .pageTitle{margin-bottom:0px;}
+	.testNav{margin-top:0px;}
+	.indexBox .indexTitle{padding-top:15px;}
+
+
+
+	.basic_title{font-size:25px;margin-bottom:15px;}
+	.basic_title img{width:40px;}
+	.basic_stitle{margin-bottom:20px;font-size:18px;letter-spacing:-0.05em;}
+
+	.basic_cont h5{font-size:20px;}
+	.basic_cont .alert{padding:20px;margin-bottom:30px;}
+}
+
+
+
+
+@media (max-width: 450px){
+		#examQ .totalGrade{margin-top:-130px;font-size:260px;line-height:260px;}
+		.exam_list tr td{font-size:15px;}
+		.table_list tr td{padding:10px 5px;font-size:13px;letter-spacing:-0.05em;}
+		.level1_exam{font-size:16px;line-height:32px;}
+		pre{font-size:13px;letter-spacing:-0.05em;}
+}

@@ -1,0 +1,194 @@
+body {font-family:'Noto Sans KR';background-color:white;}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 1200px;
+}
+.btn-primary:hover{color:white;}
+dl, ol, ul{margin-bottom:0px;}
+span.icon{display:inline-block;}
+.form-control{font-size:14px;}
+a:link, a:visited, a:active {color: #111;text-decoration:none;}
+a:hover {color:rgba(33, 33, 33, 0.5);text-decoration:none;}
+label{margin:0px;font-size:14px;}
+img{max-width:100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;}
+input{font-size:14px;}
+a.btn-secondary{color:white;}
+a.btn-info,a.btn-primary,a.btn-success {color:white;}
+h3{font-size:1.5em;}
+.btn_confirm{text-align:center;}
+p{margin-bottom:0px;}
+
+
+.sort_link{display:inline-block;position:relative;}
+.sort_link:after{display:inline-block;content:"\f0dc";position:absolute;top:3px;left:calc(100% + 5px);font-family:'FontAwesome'}
+.searchBtn{display:inline-block;padding:0px 10px;height:30px;line-height:30px;border:1px solid #aaa;}
+.noticeCon{display:flex;align-items:center;}
+
+.modal-title{font-size:16px;font-weight:bold;}
+
+
+
+
+/*페이지 상단 타이틀 & 네비게이션 */
+.pageCont{padding:20px 20px 30px 20px;}
+.pageCont .pageTitle{text-align:center;margin-bottom:20px;}
+.pageCont .pageTitle .titleLogo{margin-bottom:15px;}
+.pageCont .pageTitle .titleLogo img{height:28px;}
+/*
+.pageCont .pageTitle .titleName{font-size: 36px;color: #106eb8;font-family:'Jua','Noto Sans KR';}
+*/
+.pageCont .pageTitle .titleName{font-size: 46px;color: #ff41f2;font-family:'Noto Sans KR'; font-weight:700;}
+.subNav{display:flex;justify-content:center;}
+.subNav li{width:50%;border:1px solid #ccc;border-left:0px;}
+.subNav li:first-child{border-left:1px solid #ccc;}
+.subNav li.on{border-color:#14813d;}
+.subNav li.on:first-child{border-color:#14813d;}
+
+.table_list{width:100%;border-top:2px solid #aaa;}
+.table_list td, .table_list th{padding:8px 5px;border:1px solid #ccc;font-size:14px;color:black;letter-spacing:-0.05em;}
+.table_list td.text_overflow{text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.table_list th{text-align:center;}
+.table_list td input[type='checkbox']{width:25px;height:25px;}
+.submitCon{padding:20px 0px;text-align:center;}
+
+.text-center{text-align:center;}
+.text-right{text-align:right;}
+
+.table_form{width:100%;border-top:2px solid #aaa;}
+.table_form tr{}
+
+
+.table_form td{padding:10px 5px;font-size:14px;}
+.table_form td.head{width:20%;min-width:80px;font-weight:bold;font-family:'Noto Sans KR';background-color:#f4f4f4;}
+.table_form td.text{}
+.table_form td input[type='text']{width:95%;}
+.table_form td{border-bottom:1px solid #ccc;}
+.table_form input[type='text'], .table_form input[type='password'],.table_form select{border-radius:0px;width:100%;font-size:13px;}
+.table_form select{height:40px;}
+.table_form td.title{font-size:16px;font-weight:bold;}
+
+.table_form2 tr{}
+.table_form2 td{padding:5px;font-size:13px;}
+.table_form2 td.head{width:100px;padding-left:10px;font-weight:bold;}
+.table_form2 td.text{}
+.table_form2 td input[type='text']{width:100%;}
+
+
+#topMenu{border-bottom:1px solid #aaa;position:fixed;top:0px;left:0px;width:100%;z-index:10;background-color:white;}
+#topMenu .tm_pc{margin:0px auto;display:flex;align-items:center;width:100%;max-width:1440px;height:70px;background-color:white;}
+
+#topMenu .tm_mobile{display:none;}
+.headPadding{height:70px;}
+
+#topMenu .tm_pc .logo{padding-left:15px;width:250px;}
+#topMenu .tm_pc .member{width:200px;display:flex;align-items:center;justify-content:flex-end;}
+#topMenu .tm_pc .menu{display:flex;align-items:center;justify-content:center;width:calc(100% - 450px);}
+#topMenu .tm_pc .menu li{margin:0px 10px;}
+#topMenu .tm_pc .menu li a{display:inline-block;height:70px;line-height:70px;padding:0px 20px;border-bottom:2px solid white;color:black;}
+
+#topMenu .tm_pc .menu li a:hover{border-color:#333;color:black;}
+#topMenu .tm_pc .member a{display:inline-block;padding:0px 15px;font-size:13px;font-family:'Modem';}
+
+#topMenu .tm_mobile{display:none;}
+#headPadding{width:100%;height:70px;display:block;}
+
+.mmHead{width:100%;height:60px;display:flex;align-items:center;padding:0px 10px;border-bottom:1px solid #ccc;}
+
+.mmHead a{display:inline-block;}
+.mmHead .btnClose{padding-top:3px;margin-left:auto;font-size:34px;}
+#headModal .modal-body{padding-left:0px;padding-right:0px;}
+.modal-header{padding:0px 10px;align-items:center;justify-content:flex-start;height:60px;background-color:white;}
+.modal-header .modal-title{margin-left:5px;font-size:21px;font-weight:normal;}
+.modal-header .close{margin:0px;padding:0px 10px;font-weight:bold;font-size:28px;font-weight:bold;opacity:1;}
+
+#headModal .modal-header{background-color:white;}
+#headModal .modal-body{padding-left:0px;padding-right:0px;}
+
+
+#mainMenu .navbar-nav li a{display:block;position:relative;padding:15px 20px;line-height:25px;color:#333;font-size:18px;font-weight:400;}
+#mainMenu .navbar-nav li{border-bottom:1px solid #ccc;}
+#mainMenu a.subMenu + div{padding-left:25px;}
+
+.myNav{display:flex;width:calc(100% - 16px);margin:10px 8px;}
+.myNav li{width:calc(25% - 6px);margin:10px 3px;padding-top:2px;border:1px solid #555;}
+.myNav li a{display:block;width:100%;padding:10px 0px;text-align:center;line-height:23px;font-size:14px;}
+.myNav li a span.icon{font-size:23px;}
+	
+.indexBox{width:100%;max-width:780px;margin:0px auto}
+.indexBox .indexTitle{padding-top:30px;margin-bottom:40px;text-align:center;}
+.indexBox .indexText{font-size:18px;line-height:35px;text-align:justify;}
+
+
+
+/*
+.bottomBox{position:fixed;bottom:0px;left:0px;width:100%;background-color:white;border-top:1px solid #ccc;transition: top 0.3s; }
+.bottomPadding{width:100%;height:70px;}
+
+.bottomMenu{width:100%;max-width:780px;margin:0px auto;display:flex;align-items:center;background-color:white; border-left:1px solid #ccc;}
+.bottomMenu li{width:20%;padding:8px 0px 5px 0px;border-right:1px solid #ccc;}
+.bottomMenu{border-left:1px solid #ccc;}
+.bottomMenu li:last-child{border-right:1px solid #ccc;}
+*/
+.bottomCon{display:none;}
+.bottomBox{display:none;position:fixed;bottom:0px;left:0px;width:100%;background-color:white;transition: top 0.3s; }
+.bottomPadding{width:100%;height:70px;}
+.bottomMenu{width:100%;max-width:780px;margin:0px auto;display:flex;align-items:center;background-color:white;}
+.bottomMenu li{width:20%;padding:8px 0px 5px 0px;}
+
+.bottomMenu li a{display:block;width:100%;text-align:center;}
+.bottomMenu li a .bp_icon{width:100%;text-align:center;}
+.bottomMenu li a .bp_icon img{width:95%;max-width:50px;}
+
+.bottomMenu li a .bp_title{text-align:center;height:20px;line-height:20px;font-size:13px;letter-spacing:-0.05em;}
+.bottomBanner a{display:block;width:100%;text-align:center;}
+.bottomMenu li:nth-child(4) a .bp_title{font-size:12px;}
+.bottomBanner a{display:block;width:100%;text-align:center;}
+
+.pageBody{width:100%;max-width:780px;margin:0px auto;}
+body.board .pageBody{max-width:1400px;}
+
+.cdcBtn{}
+.cdcBtn a.btn{padding-top:0px;padding-bottom:0px;height:50px;line-height:50px;}
+.modal.left .modal-body{padding-top:0px;}
+
+@media (max-width: 1080px) {
+	#topMenu .tm_pc{display:none;}
+	/*상단을 정의*/
+	#topMenu .tm_mobile{width:100%;height:55px;margin:0px auto;padding:0px 11px;display:flex;align-items:center;width:100%;}
+	
+	#topMenu .tm_mobile .logo{text-align:center;}
+
+	#topMenu .tm_mobile .logo a{display:inline-block;}
+	#topMenu .tm_mobile .logo a img{max-width:initial;height:40px;}
+	#topMenu .tm_mobile .menu{margin-left:auto;width:40px;font-size:25px;line-height:35px;}
+	#topMenu .tm_mobile .member{width:70px;display:flex;align-items:center;justify-content:flex-end;}
+	.bottomCon{display:block;}
+	.bottomBox{display:block;}
+}
+
+@media (max-width: 780px) {
+	.bottomMenu{border-left:none;}
+	.bottomMenu li:last-child{border-right:none;}
+	.myNav {flex-wrap:wrap;}
+	.pageCont .pageTitle .titleName{font-size:30px;}
+}
+
+@media (max-width:600px) {
+	.pageCont{padding:0px 15px 20px 15px;}
+	.pageCont .pageTitle .titleLogo{margin-bottom:10px;}
+	.pageCont .pageTitle .titleLogo img{height:20px;}
+	.pageCont .pageTitle .titleName{margin-bottom:10px;font-size:28px;}
+	.textBox{line-height:30px;font-size:17px;}
+}
+
+@media (max-width:450px) {
+	.pageCont .pageTitle .titleLogo{margin-bottom:10px;}
+	.pageCont .pageTitle .titleLogo img{height:20px;}
+	.pageCont .pageTitle .titleName{font-size:23px;}
+}
+
